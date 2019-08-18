@@ -1,0 +1,74 @@
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Charter", serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.container {
+    margin: 1rem 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.logo {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 2.4rem;
+    font-style: italic;
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 66.8rem) {
+    .container {
+        margin: 0;
+    }
+    .container--668 {
+        margin: 2rem auto;
+        max-width: 66.8rem;
+    }
+}
+
+.wysiwyg__controls {
+    list-style: none;
+    display: flex;
+    overflow: scroll;
+    margin: 1.5rem 0;
+    padding: 0;
+}
+
+.wysiwyg__controls button {
+    border: 0.1rem solid #ddd;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 4.5rem;
+    height: 3.5rem;
+    transition: all 0.125s ease-in;
+}
+
+.wysiwyg__controls button:hover {
+    background: #eee;
+}
+
+.wysiwyg__controls button:focus {
+    background: #d9d9d9;
+    border-radius: 0.2rem solid #ddd;
+    outline: none;
+}
+
+.wysiwyg__content {
+    border: none;
+    display: block;
+    font-size: 2rem;
+    line-height: 1.6;
+    outline: none;
+    resize: none;
+    text-align: left;
+    white-space: pre-wrap;
+    width: 66.8rem;
+}
