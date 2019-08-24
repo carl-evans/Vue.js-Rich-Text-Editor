@@ -71,3 +71,13 @@ body {
     text-align: left;
     white-space: pre-wrap;
 }
+
+.d-none--tablet-up { 
+    display: block;
+}
+
+@media(min-width: 76.8rem) {
+    .d-none--tablet-up {
+        display: none;
+    }
+}

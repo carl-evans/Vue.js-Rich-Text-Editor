@@ -43,6 +43,7 @@ Vue.component("wysiwyg", {
     template: `
         <div class="wysiwyg">
             <ul class="wysiwyg__controls">
+              <li class="d-none--tablet-up"><button @click="insertTab"><i class="fa fa-paragraph" title="Indent paragraph"></i></button></li>
               <li><button @click="bold"><i class="fa fa-bold" title="Make selected text bold"></i></button></li>
               <li><button @click="italic"><i class="fa fa-italic" title="Make selected text italic"></i></button></li>
               <li><button @click="underline"><i class="fa fa-underline" title="Underline selected text"></i></button></li>
